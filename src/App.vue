@@ -1,30 +1,42 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <!-- <HeaderHome/>
+  <BannerHome/>
+  <ComGarantia/> -->
+  <HeaderHomee/>
+  <BannerHomee/>
 </template>
 
+<script>
+import BannerHomee from './components/BannerHomee.vue'
+import HeaderHomee from './components/HeaderHomee.vue'
+// import HeaderHome from './components/HeaderHome.vue'
+// import BannerHome from './components/BannerHome.vue'
+// import ComGarantia from './components/ComGarantia.vue'
+
+
+
+export default{
+  name: 'App',
+  components: {
+    // HeaderHome, 
+    // BannerHome,
+    // ComGarantia,
+    HeaderHomee,
+    BannerHomee
+  }
+}
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+body{
+  margin: 0;
+  padding: 0;
 }
 
-nav {
-  padding: 30px;
+*{
+  font-family: inter;
 }
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
