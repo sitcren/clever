@@ -4,11 +4,25 @@
   <ComGarantia/> -->
   <HeaderHomee/>
   <BannerHomee/>
+  <MethodsHome/>
+  <CategoriaHome/>
+  <NossosProductos/>
+  <BannerApp/>
+  <LastNews/>
+  <NewsLetter/>
+  <FooterHome/>
 </template>
 
 <script>
 import BannerHomee from './components/BannerHomee.vue'
 import HeaderHomee from './components/HeaderHomee.vue'
+import MethodsHome from './components/MethodsHome.vue'
+import CategoriaHome from './components/CategoriaHome.vue'
+import NossosProductos from './components/NossosProductos.vue'
+import BannerApp from './components/BannerApp.vue'
+import LastNews from './components/LastNews.vue'
+import NewsLetter from './components/NewsLetter.vue'
+import FooterHome from './components/FooterHome.vue'
 // import HeaderHome from './components/HeaderHome.vue'
 // import BannerHome from './components/BannerHome.vue'
 // import ComGarantia from './components/ComGarantia.vue'
@@ -22,7 +36,14 @@ export default{
     // BannerHome,
     // ComGarantia,
     HeaderHomee,
-    BannerHomee
+    BannerHomee,
+    MethodsHome,
+    CategoriaHome,
+    NossosProductos,
+    BannerApp,
+    LastNews,
+    NewsLetter,
+    FooterHome
   }
 }
 </script>
