@@ -12,7 +12,7 @@
                     <li><h2>Navegação</h2>
                     </li>
                     <li class="bold"><a href="">Cadastrar</a></li>
-                    <li class="bold"><a href="">Login</a></li>
+                    <li class="bold"><router-link to="/login"><a href="">Login</a></router-link></li>
                 </ul>
             </article>
             <article class="tres">

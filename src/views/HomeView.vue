@@ -1,15 +1,40 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+  <div>
+    <HeaderHomee />
+    <BannerHomee />
+    <MethodsHome />
+    <CategoriaHome />
+    <NossosProductos />
+    <BannerApp />
+    <LastNews />
+    <NewsLetter />
+    <FooterHome />
   </div>
 </template>
 
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component';
+import BannerHomee from '../components/BannerHomee.vue'
+import HeaderHomee from '../components/HeaderHomee.vue'
+import MethodsHome from '../components/MethodsHome.vue'
+import CategoriaHome from '../components/CategoriaHome.vue'
+import NossosProductos from '../components/NossosProductos.vue'
+import BannerApp from '../components/BannerApp.vue'
+import LastNews from '../components/LastNews.vue'
+import NewsLetter from '../components/NewsLetter.vue'
+import FooterHome from '../components/FooterHome.vue'
 
-@Options({
+export default {
+  name: 'HomeView',
   components: {
+    HeaderHomee,
+    BannerHomee,
+    MethodsHome,
+    CategoriaHome,
+    NossosProductos,
+    BannerApp,
+    LastNews,
+    NewsLetter,
+    FooterHome
   }
-})
-export default class HomeView extends Vue {}
+}
 </script>

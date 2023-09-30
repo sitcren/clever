@@ -106,7 +106,6 @@ margin: 0;
     color: black;
 }
 
-
 .newImage{
     flex: 1;
     max-height: 293px;

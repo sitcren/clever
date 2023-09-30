@@ -17,7 +17,11 @@
                         <input class="inputSearch" type="search" placeholder="Search for products...">
                     </form>
 </div>
-<span class="user"><a href=""><img src="../assets/userIcon.png" alt=""></a></span>
+<span class="user">
+
+    <router-link to="/login"><img src="../assets/userIcon.png" alt=""></router-link>
+
+</span>
 <span class="wallet"><a href=""><img src="../assets/bagIcon.png" alt=""></a></span>
 
                 </div>
